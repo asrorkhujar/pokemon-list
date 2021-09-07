@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemons</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="fw-bold text-center my-4 text-info">Pokemons</h1>
+    <div class="pokemons-list row">
+
+    </div>
+  </div>
+
+
+  <template id="pokemons-item-template">
+    <div class="pokemon col-sm-6 col-md-3 col-lg-3 mb-4">
+      <div class="">
+        <div class="card rounded">
+          <div class="bg-light d-flex flex-column align-items-center rounded-top py-2">
+            <img class="pokemon__img" src="" alt="image of pakemon" width="100" height="100">
+          </div>
+          <div class="card-body">
+            <div class="text-center">
+              <h3 class="pokemon__name card-title h5 mb-0 text-center"></h3>
+              <span class="pokemon__number"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+
+
+
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/pokemons.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
